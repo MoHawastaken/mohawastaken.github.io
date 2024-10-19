@@ -6,8 +6,8 @@ authors:
 - David Holzmüller
 - Ulrike Luxburg
 - Ingo Steinwart
-date: '2023-01-01'
-publishDate: '2024-10-19T15:22:26.625730Z'
+date: '2023-05-01'
+publishDate: ''
 publication_types:
 - paper-conference
 publication: '*Advances in Neural Information Processing Systems*'
