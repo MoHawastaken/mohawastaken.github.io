@@ -1,3 +1,8 @@
+# TODO
+
+Almost done. Just need to host it somewhere. If you want to use github pages, pay 4$ per month: https://docs.hugoblox.com/tutorial/resume/step-5/
+
+
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
