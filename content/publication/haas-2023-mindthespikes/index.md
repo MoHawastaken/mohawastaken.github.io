@@ -7,7 +7,7 @@ authors:
 - Ulrike Luxburg
 - Ingo Steinwart
 date: '2023-05-01'
-publishDate: ''
+publishDate: '2023-05-01'
 publication_types:
 - paper-conference
 publication: '*Advances in Neural Information Processing Systems*'
