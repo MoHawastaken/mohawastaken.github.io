@@ -1,13 +1,13 @@
 ---
-title: '$boldsymbolμmathbfP^2$: Effective Sharpness Aware Minimization Requires Layerwise
+title: '$\boldsymbol{\mu}\mathbf{P^2}$: Effective Sharpness Aware Minimization Requires Layerwise
   Perturbation Scaling'
 authors:
 - Moritz Haas
 - Jin Xu
 - Volkan Cevher
 - Leena Chennuru Vankadara
-date: '2024-01-01'
-publishDate: '2024-10-19T15:22:26.605219Z'
+date: '2024-10-31'
+publishDate: '2024-10-31T15:22:26.605219Z'
 publication_types:
 - paper-conference
 publication: '*The Thirty-eighth Annual Conference on Neural Information Processing
