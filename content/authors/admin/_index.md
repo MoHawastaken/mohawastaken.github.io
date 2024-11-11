@@ -48,7 +48,7 @@ education:
   - area: PhD Theory of Machine Learning
     institution: University of Tübingen
     date_start: 2021-05-01
-    date_end: ongoing
+    date_end: ''
     summary: |
       soon...
   - area: MSc Mathematics
