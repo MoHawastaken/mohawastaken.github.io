@@ -109,8 +109,8 @@ languages:
 
 ## About Me
 
-I am a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by Ulrike von Luxburg and Bedartha Goswami.
+I am a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by [Ulrike von Luxburg](https://www.tml.cs.uni-tuebingen.de/team/index.php) and [Bedartha Goswami](https://machineclimate.de/people/goswami/).
 
 My goal is developing a mechanistic understanding of deep learning that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
 
-mo.{last_name}@uni-tuebingen.de
+Contact: mo.{last_name}@uni-tuebingen.de
