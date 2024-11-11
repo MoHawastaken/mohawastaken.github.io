@@ -67,13 +67,8 @@ work:
     company_logo: ''
     date_start: 2023-11-01
     date_end: 2024-04-30
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-
+<!--
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -107,6 +102,7 @@ skills:
         description: ''
         percent: 80
         icon: camera
+-->
 
 languages:
   - name: German
