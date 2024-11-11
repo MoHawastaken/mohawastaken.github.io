@@ -30,9 +30,6 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
   - icon: brands/github
     url: https://github.com/moritzhaas
   - icon: academicons/google-scholar
@@ -156,3 +153,5 @@ languages:
 I am a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by Ulrike von Luxburg and Bedartha Goswami.
 
 My goal is developing a mechanistic understanding of deep learning that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
+
+mo.{last_name}@uni-tuebingen.de

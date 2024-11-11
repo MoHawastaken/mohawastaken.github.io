@@ -1,5 +1,5 @@
 ---
-title: '$\boldsymbol{\mu}\mathbf{P^2}$: Effective Sharpness Aware Minimization Requires Layerwise
+title: 'mup^2: Effective Sharpness Aware Minimization Requires Layerwise
   Perturbation Scaling'
 authors:
 - Moritz Haas
