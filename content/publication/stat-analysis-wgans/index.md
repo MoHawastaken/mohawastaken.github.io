@@ -8,4 +8,6 @@ publishDate: '2020-11-01'
 publication_types:
 - arXiv-preprint
 publication: '*arXiv:2011.03074*'
+url_pdf: 'https://arxiv.org/pdf/2011.03074'
+
 ---
