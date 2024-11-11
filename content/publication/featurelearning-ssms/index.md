@@ -7,7 +7,7 @@ title: 'On Feature Learning in Structured State Space Models'
 authors:
   - Leena Chennuru Vankadara*
   - Jin Xu*
-  - admin
+  - Moritz Haas
   - Volkan Cevher
 
 # Author notes (optional)
