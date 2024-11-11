@@ -39,7 +39,7 @@ publication: In NeurIPS 2024.
 #  - Large Language Models
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
