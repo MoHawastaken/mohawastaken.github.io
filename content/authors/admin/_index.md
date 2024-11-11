@@ -46,8 +46,6 @@ education:
     institution: University of Tübingen
     date_start: 2021-05-01
     date_end: ''
-    summary: |
-      soon...
   - area: MSc Mathematics
     institution: Ruprecht Karls Universität Heidelberg
     date_start: 2018-04-01
