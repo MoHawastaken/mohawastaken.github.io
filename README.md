@@ -1,13 +1,4 @@
-# TODO
-
-Almost done. Just need to host it somewhere. If you want to use github pages, pay 4$ per month: https://docs.hugoblox.com/tutorial/resume/step-5/
-
-1) Tell GitHub that you want to use GitHub Pages to host your website by clicking Settings > Pages > Source and then choosing GitHub Actions.
-2) Now head to Actions > Deploy Website > Run workflow and click the Run workflow button to publish the site with GitHub Pages hosting
-
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
-
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
 
 The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
 
