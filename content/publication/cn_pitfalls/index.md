@@ -12,7 +12,7 @@ doi: ''
 
 publishDate: '2023-04-20T00:00:00Z'
 
-publication: Journal of Climate.
+#publication: Journal of Climate
 
 featured: true
 

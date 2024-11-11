@@ -13,7 +13,7 @@ doi: ''
 
 publishDate: '2023-05-23T00:00:00Z'
 
-publication: In NeurIPS 2023.
+#publication: NeurIPS 2023
 
 featured: true
 
