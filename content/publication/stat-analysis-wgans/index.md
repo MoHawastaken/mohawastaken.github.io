@@ -74,7 +74,7 @@ url_video: ''
 #slides: example
 ---
 
- We analyse Wasserstein GANs statistically. Interestingly, our excess risk bound for unconditional WGANS captures a key advantage of generative models already in 2020: Since we can generate as many samples as we want, the generalization error is only limited by the critic network and the dataset size. If we generate enough samples (and assume to find a global optimizer), the generator network may be arbitrarily large. We also show that large critic networks metrize weak convergence, that is they are able to distinguish arbitrary pairs of distributions and guide the generator to reproduce the data distribution.
+ We analyse Wasserstein GANs statistically. Interestingly, our excess risk bound for unconditional WGANS (from 2020!) captures a key advantage of generative models: Since we can generate as many samples as we want, the generalization error is only limited by the critic network and the dataset size. If we generate enough samples (and assume to find a global optimizer), the generator network may be arbitrarily large. We also show that large critic networks metrize weak convergence, that is they are able to distinguish arbitrary pairs of distributions and guide the generator to reproduce the data distribution.
 
 <!--
 In a [second paper](https://mohawastaken.github.io/publication/featurelearning-ssms/), we show that for the popular Mamba architecture, the maximal update parameterization and its related spectral scaling condition fail to induce the correct scaling properties, due to Mambas structured Hippo matrix and its selection mechanism. We derive the correct scaling using random matrix theory that necessarily goes beyond the Tensor Programs framework.
