@@ -1,19 +1,4 @@
 ---
-title: Statistical analysis of wasserstein gans with applications to time series forecasting
-authors:
-- Moritz Haas
-- Stefan Richter
-date: '2020-11-05'
-publishDate: '2020-11-05'
-publication_types:
-- arXiv-preprint
-publication: '*arXiv:2011.03074*'
-url_pdf: 'https://arxiv.org/pdf/2011.03074'
-
----
-
-
----
 title: 'Statistical Analysis of Wasserstein GANs with Applications to Time Series Forecasting'
 
 # Authors
