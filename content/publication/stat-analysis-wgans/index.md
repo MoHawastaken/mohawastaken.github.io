@@ -37,7 +37,7 @@ publication: '*arXiv:2011.03074*'
 #  - Large Language Models
 
 # Display this page in the Featured widget?
-featured: False
+featured: True
 
 # Custom links (uncomment lines below)
 # links:
