@@ -20,9 +20,9 @@ featured: true
 url_pdf: 'https://arxiv.org/pdf/2305.14077'
 url_code: 'https://github.com/moritzhaas/mind-the-spikes'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://mohawastaken.github.io/publication/mindthespikes/mindthespikes_poster_neurips.pdf'
 url_project: ''
-url_slides: ''
+url_slides: 'https://mohawastaken.github.io/publication/mindthespikes/mindthespikes_slides1123.pdf'
 url_source: ''
 url_video: ''
 

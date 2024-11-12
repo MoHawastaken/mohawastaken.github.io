@@ -19,7 +19,7 @@ featured: true
 url_pdf: 'https://journals.ametsoc.org/view/journals/clim/36/10/JCLI-D-22-0549.1.xml?tab_body=pdf'
 url_code: 'https://github.com/moritzhaas/climate_nets_from_random_fields'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://mohawastaken.github.io/publication/cn_pitfalls/pitfalls_cn_poster_egu23.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
