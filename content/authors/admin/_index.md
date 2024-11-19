@@ -67,13 +67,13 @@ work:
     date_end: 2024-04-30
 
 
-languages:
-  - name: German
-    percent: 100
-  - name: English
-    percent: 90
-  - name: Spanish
-    percent: 80
+#languages:
+#  - name: German
+#    percent: 100
+#  - name: English
+#    percent: 90
+#  - name: Spanish
+#    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
