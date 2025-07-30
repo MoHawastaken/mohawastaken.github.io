@@ -113,4 +113,6 @@ I am a PhD student in the 'Theory of Machine Learning' group at the University o
 
 My goal is developing a mechanistic understanding of deep learning that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
 
+I was recognized as a top reviewer for [NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee) and as a notable reviewer for [ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers).
+
 Contact: mo.{last_name}@uni-tuebingen.de
