@@ -118,11 +118,11 @@ I am currently working as an Applied Scientist in the AGI Foundations team at Am
 
 My goal is developing a mechanistic understanding of deep learning that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
 
+We potentially have **internship positions** available in Tübingen. If you have experience in neural network scaling or are genuinely interested in working at the intersection between deep learning theory and practice (see publications below), **feel free to reach out!**
+
 Previously, I was a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by [Ulrike von Luxburg](https://www.tml.cs.uni-tuebingen.de/team/index.php) and [Bedartha Goswami](https://machineclimate.de/people/goswami/).
 
 I was recognized as a top reviewer for [NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee) and as a notable reviewer for [ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers).
 
 Contact: mo.{last_name}@uni-tuebingen.de
 
-
-We potentially have internship positions available in Tübingen. If you have experience in neural network scaling or are genuinely interested in working at the intersection between deep learning theory and practice, feel free to reach out!
