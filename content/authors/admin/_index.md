@@ -20,12 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD student
+role: Applied Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Tübingen
-    url: https://www.tml.cs.uni-tuebingen.de/team/haas/index.php
+  - name: Amazon AGI Foundations
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -59,6 +58,12 @@ education:
     summary: |
       Focus: Analysis, Probability Theory, Statistics
 work:
+  - position: Applied Scientist
+    company_name: Amazon AGI Foundations
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-08-01
+    date_end: ''
   - position: Applied Science Intern
     company_name: Amazon AGI Foundations
     company_url: ''
@@ -109,10 +114,15 @@ work:
 
 ## About Me
 
-I am a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by [Ulrike von Luxburg](https://www.tml.cs.uni-tuebingen.de/team/index.php) and [Bedartha Goswami](https://machineclimate.de/people/goswami/).
+I am currently working as an Applied Scientist in the AGI Foundations team at Amazon.
 
 My goal is developing a mechanistic understanding of deep learning that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
+
+Previously, I was a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by [Ulrike von Luxburg](https://www.tml.cs.uni-tuebingen.de/team/index.php) and [Bedartha Goswami](https://machineclimate.de/people/goswami/).
 
 I was recognized as a top reviewer for [NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee) and as a notable reviewer for [ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers).
 
 Contact: mo.{last_name}@uni-tuebingen.de
+
+
+We potentially have internship positions available in Tübingen. If you have experience in neural network scaling or are genuinely interested in working at the intersection between deep learning theory and practice, feel free to reach out!
