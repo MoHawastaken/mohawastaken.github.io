@@ -1,6 +1,6 @@
 name: Deploy website to GitHub Pages
 env:
-  WC_HUGO_VERSION: '0.120.3'
+  WC_HUGO_VERSION: '0.131.0'
 on:
   # Trigger the workflow every time you push to the `main` branch
   push:
