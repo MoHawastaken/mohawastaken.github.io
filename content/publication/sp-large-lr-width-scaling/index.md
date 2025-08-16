@@ -44,7 +44,7 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/pdf/2505.22491'
-url_code: ''
+url_code: 'https://github.com/moritzhaas/large-lr-width-scaling'
 url_dataset: ''
 url_poster: ''
 url_project: ''
