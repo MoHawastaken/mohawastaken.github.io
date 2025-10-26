@@ -37,8 +37,8 @@ publication: '*NeurIPS 2025 (spotlight)*'
 
 # Display this page in the Featured widget?
 featured: true
-share: false
-commentable: true
+# share: false
+# commentable: true
 
 # Custom links (uncomment lines below)
 # links:
