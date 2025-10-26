@@ -2,9 +2,12 @@ name: Deploy website to GitHub Pages
 env:
   WC_HUGO_VERSION: '0.131.0'
 on:
+  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
+# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -13,63 +16,41 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 jobs:
+  # Build website
   build:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
-    env:
-      # isolate cache per run to avoid stale/corrupt files in /tmp
-      HUGO_CACHE_DIR: ${{ runner.temp }}/hugo_cache
     steps:
     - name: Checkout
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - name: Prepare Hugo cache
-      run: |
-        echo "Preparing Hugo cache at: ${HUGO_CACHE_DIR}"
-        rm -rf "${HUGO_CACHE_DIR}" || true
-        mkdir -p "${HUGO_CACHE_DIR}"
-        chmod -R 0777 "${HUGO_CACHE_DIR}"
-      shell: bash
-
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
-
-    # Optional: enable caching for the Hugo module cache once stable
-    # - uses: actions/cache@v4
-    #   with:
-    #     path: ${{ runner.temp }}/hugo_cache
-    #     key: ${{ runner.os }}-hugo-cache-${{ hashFiles('**/go.mod') }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-hugo-cache-
-
+    - uses: actions/cache@v4
+      with:
+        path: /tmp/hugo_cache_runner/
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+        restore-keys: |
+          ${{ runner.os }}-hugomod-
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v4
-
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
       run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
-        # Ensure modules cache cleaned for a deterministic start
-        hugo mod clean || true
-        # Build - ignore stale cache during this run to avoid 'hugo_stats.json' issues
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" --gc --ignoreCache
-      shell: bash
-
+        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
-
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
         path: ./public
-
-
   # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'
