@@ -38,6 +38,7 @@ publication: '*arXiv:2011.03074*'
 
 # Display this page in the Featured widget?
 featured: True
+share: false
 
 # Custom links (uncomment lines below)
 # links:

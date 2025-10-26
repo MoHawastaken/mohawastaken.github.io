@@ -16,6 +16,7 @@ publishDate: '2023-05-23T00:00:00Z'
 publication: '*NeurIPS 2023*'
 
 featured: true
+share: false
 
 url_pdf: 'https://arxiv.org/pdf/2305.14077'
 url_code: 'https://github.com/moritzhaas/mind-the-spikes'

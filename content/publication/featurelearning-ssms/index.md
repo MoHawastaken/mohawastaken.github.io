@@ -40,6 +40,7 @@ publication: '*NeurIPS 2024*'
 
 # Display this page in the Featured widget?
 featured: false
+share: false
 
 # Custom links (uncomment lines below)
 # links:

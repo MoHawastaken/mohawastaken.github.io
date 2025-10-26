@@ -15,6 +15,7 @@ publishDate: '2023-04-20T00:00:00Z'
 publication: '*Journal of Climate*'
 
 featured: true
+share: false
 
 url_pdf: 'https://journals.ametsoc.org/view/journals/clim/36/10/JCLI-D-22-0549.1.xml?tab_body=pdf'
 url_code: 'https://github.com/moritzhaas/climate_nets_from_random_fields'
