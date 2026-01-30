@@ -41,9 +41,9 @@ share: false
 # commentable: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Blog
+  url: https://sbordt.substack.com/p/why-can-we-train-large-models-with
 
 url_pdf: 'https://arxiv.org/pdf/2505.22491'
 url_code: 'https://github.com/tml-tuebingen/torch-module-monitor'
@@ -76,13 +76,13 @@ projects: []
 #slides: example
 ---
 
-A primary goal of infinite-width theory has always been explaining neural networks as they are initialized and trained in practice (called 'standard parameterization', short SP). But there has always remained a fundamental gap: Existing theory for SP predicts a kernel regime with vanishing feature learning under small learning rates, and instability due to logit divergence under large learning rates. But even extensively large models continue to effectively learn features in practice, which results in favorable performance at scale. While previous works suggest strong finite-width or long-training time effects, we show that these explanations do not suffice. These insights were only enabled by sufficiently fine-grained tracking of network-internal signal propagation. In refined coordinate checks, we disentangle propagating updates from previous layers from effective updates in the current layer, which show surprisingly clean predicted update exponents, even over the course of training. We released a [flexible, open-source package](https://github.com/tml-tuebingen/torch-module-monitor) that enables fine-grained tracking of GPT internals such as refined coordinate checks in a few lines of code.
+A primary goal of infinite-width theory has always been explaining neural networks as they are initialized and trained in practice (called 'standard parameterization', short SP). But there has always remained a fundamental gap: Existing theory for SP predicts a kernel regime with vanishing feature learning under small learning rates, and instability due to logit divergence under large learning rates. But even extensively large models continue to effectively learn features in practice, which results in favorable performance at scale. While previous works suggest strong finite-width or long-training time effects, we show that these explanations do not suffice. These insights were only enabled by sufficiently fine-grained tracking of network-internal signal propagation. In refined coordinate checks, we disentangle propagating updates from previous layers from effective updates in the current layer, which show surprisingly clean predicted update exponents, even over the course of training. We released a [flexible, open-source package](https://github.com/tml-tuebingen/torch-module-monitor) that enables fine-grained tracking of GPT internals such as refined coordinate checks (RCC) in a few lines of code. RCCs are an essential diagnostic tool for understanding whether your layerwise initialization and learning rate choices achieve model-scale-invariant forward and backward signal propagation. Check out our [blog post](https://sbordt.substack.com/p/why-can-we-train-large-models-with) for an accessible introduction.
 
 Instead this apparent gap between pessimistic infinite-width theory and well-performing practice can be fundamentally reconciled with the insight that logit divergence does not harm training stability when using torch.nn.CrossEntropyLoss (with a softmax before the cross-entropy loss). Consequently even extensively wide neural networks in SP trained with SGD (or Adam) under large learning rates effectively update all hidden layers. This has several important implications:
 
 a) Our max-stable learning rate exponent predictions significantly constrain the search space for the optimal learning rate, even in practical settings like GPT pretraining. The optimal learning rate often even 'approximately transfers' across model scale under the scaling exponents predicted by our theory despite vanishing input layer feature learning and logit blowup in SP with large learning rates (for both SGD and Adam).
 
-b) CE loss often outperforms MSE loss because large learning rates do not remain stable under MSE loss and feature learning is lost at scale. Using muP at large model scale enables using other loss functions such as MSE loss.
+b) CE loss often outperforms MSE loss because large learning rates do not remain stable under MSE loss and consequently feature learning is lost at scale. Using muP at large model scale enables using other loss functions such as MSE loss.
 
 c) We explain why SP-full-align from [Everett et al.](https://arxiv.org/pdf/2407.05872) works so well: At large width, SP-full-align lies at the feature learning edge of the controlled divergence regime, where it remains stable despite logit divergence. In language settings (width << output dimension), standard initialization non-asymptotically preserves the variance of propagating updates even better than muP.
 

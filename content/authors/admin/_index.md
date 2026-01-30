@@ -44,7 +44,9 @@ education:
   - area: PhD Theory of Machine Learning
     institution: University of Tübingen
     date_start: 2021-05-01
-    date_end: ''
+    date_end: 2025-07-31
+    summary: |
+      Focus: Deep Learning Theory, ML in Climate Science
   - area: MSc Mathematics
     institution: Ruprecht Karls Universität Heidelberg
     date_start: 2018-04-01
@@ -122,7 +124,5 @@ We potentially have **internship positions** available in Tübingen. If you have
 
 Previously, I was a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by [Ulrike von Luxburg](https://www.tml.cs.uni-tuebingen.de/team/index.php) and [Bedartha Goswami](https://machineclimate.de/people/goswami/).
 
-I was recognized as a top reviewer for [NeurIPS 2024](https://neurips.cc/Conferences/2024/ProgramCommittee) and as a notable reviewer for [ICLR 2025](https://iclr.cc/Conferences/2025/Reviewers).
-
-Contact: mo.{last_name}@uni-tuebingen.de
+Contact: {first-name}-ha@web.de
 

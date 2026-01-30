@@ -1,0 +1,16 @@
+/* Make publication pages full width on desktop */
+@media (min-width: 768px) {
+  article .max-w-prose {
+    max-width: 100% !important;
+  }
+  
+  article main {
+    max-width: 100% !important;
+  }
+  
+  article p,
+  article li {
+    text-align: justify !important;
+    font-size: 0.9rem !important;
+  }
+}
