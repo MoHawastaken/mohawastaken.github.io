@@ -29,7 +29,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Main Publications
+      title: Publications
       filters:
         folders:
           - publication
