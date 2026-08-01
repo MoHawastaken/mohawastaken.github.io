@@ -118,9 +118,9 @@ work:
 
 I am currently working as an Applied Scientist in the AGI Foundations team at Amazon.
 
-My goal is developing a mechanistic understanding of deep learning that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
+My goal is developing a mechanistic understanding of large-scale neural networks that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
 
-We potentially have **internship positions** available in Tübingen. If you have experience in neural network scaling or are genuinely interested in working at the intersection between deep learning theory and practice (see publications below), **feel free to reach out!**
+<!-- We potentially have **internship positions** available in Tübingen. If you have experience in neural network scaling or are genuinely interested in working at the intersection between deep learning theory and practice (see publications below), **feel free to reach out!** -->
 
 Previously, I was a PhD student in the 'Theory of Machine Learning' group at the University of Tübingen supervised by [Ulrike von Luxburg](https://www.tml.cs.uni-tuebingen.de/team/index.php) and [Bedartha Goswami](https://machineclimate.de/people/goswami/).
 
