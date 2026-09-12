@@ -116,9 +116,13 @@ work:
 
 ## About Me
 
-I am currently working as an Applied Scientist in the AGI Foundations team at Amazon.
+I am currently working as an Applied Scientist in the team that builds the open-weights [Chronos](https://github.com/amazon-science/chronos-forecasting) series of time series foundation models as well as the open-source library [AutoGluon](https://auto.gluon.ai/stable/index.html) at Amazon.
 
-My goal is developing a mechanistic understanding of large-scale neural networks that results in practical benefits. On the side, I am trying to improve statistical methods in climate science. Feel free to reach out, if you are interested in any of the two topics!
+<!--
+AGI Foundations team at Amazon.
+-->
+
+My long-term goal is developing a mechanistic understanding of large-scale neural networks that results in practical benefits. Feel free to reach out, if you are interested in any of these topics!
 
 <!-- We potentially have **internship positions** available in Tübingen. If you have experience in neural network scaling or are genuinely interested in working at the intersection between deep learning theory and practice (see publications below), **feel free to reach out!** -->
 
